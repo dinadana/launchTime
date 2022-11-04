@@ -21,6 +21,12 @@
   display: none;
 }
 
+@media screen and (min-width: 200px) and (max-width: 1000px) {
+  .content h1 {
+      padding-top:60%; /* screen width - min200px and max1000px */
+  }
+}
+
 .content{
   padding-top: 50%;
   left: 25%;
